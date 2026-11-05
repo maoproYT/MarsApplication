@@ -4,10 +4,8 @@ import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
-class MarsPhoto (
+data class MarsPhoto(
     val id: String,
-    @SerialName(value = "img_src") val imgSrc : String
-){
-    companion object {
-    }
-}
+    @SerialName(value = "img_src")
+    val imgSrc: String
+)
