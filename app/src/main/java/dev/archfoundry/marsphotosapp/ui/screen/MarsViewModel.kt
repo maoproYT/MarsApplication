@@ -11,7 +11,7 @@ import androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory.Companion.AP
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import dev.archfoundry.marsphotosapp.MarsPhotosApplication
+import dev.archfoundry.marsphotosapp.data.MarsPhotosApplication
 import dev.archfoundry.marsphotosapp.data.MarsPhotosRepository
 import dev.archfoundry.marsphotosapp.network.MarsPhoto
 import kotlinx.coroutines.launch

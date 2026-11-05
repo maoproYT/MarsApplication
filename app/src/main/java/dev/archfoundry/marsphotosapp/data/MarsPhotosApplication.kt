@@ -1,9 +1,6 @@
-package dev.archfoundry.marsphotosapp
-
+package dev.archfoundry.marsphotosapp.data
 
 import android.app.Application
-import dev.archfoundry.marsphotosapp.data.AppContainer
-import dev.archfoundry.marsphotosapp.data.DefaultAppContainer
 
 class MarsPhotosApplication : Application() {
     lateinit var container: AppContainer

@@ -1,4 +1,4 @@
-package dev.archfoundry.marsphotosapp
+package dev.archfoundry.marsphotosapp.data
 
 
 import androidx.compose.foundation.layout.padding
